@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Галерея</title>
+  <style>
+    body {
+      background-color: #0d0d0d;
+      color: #00ffff;
+      font-family: Arial, sans-serif;
+      text-align: center;
+    }
+    .gallery {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 15px;
+      margin-top: 20px;
+    }
+    .gallery img {
+      width: 300px;
+      height: auto;
+      border: 2px solid #00ffff;
+      border-radius: 10px;
+    }
+    a {
+      color: #00ffff;
+      text-decoration: underline;
+      display: block;
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+  <h1>Галерея</h1>
+  <div class="gallery">
+    <img src="/images/sample1.jpg" alt="Пример 1" />
+    <img src="/images/sample2.jpg" alt="Пример 2" />
+    <img src="/images/sample3.jpg" alt="Пример 3" />
+  </div>
+  <a href="/">Назад на главную</a>
+</body>
+</html>
