@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>MSCPATT</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>MSCPATT</h1>
+    <nav>
+      <a href="/">Главная</a> |
+      <a href="/login">Личный кабинет</a> |
+      <a href="#contact">Контакты</a>
+    </nav>
+  </header>
+  <section class="bio">
+    <h2>Biography</h2>
+    <ul>
+      <li>· IT specialist</li>
+      <li>· Moderator of more channels</li>
+      <li>· exDota now CS player</li>
+      <li>· Business tg: @prdrow</li>
+      <li>· Ad mail: drow.battle.2025@gmail.com</li>
+    </ul>
+  </section>
+  <section class="gallery">
+    <h2>Галерея</h2>
+    <img src="images/photo1.jpg" alt="Фото 1" />
+    <img src="images/photo2.jpg" alt="Фото 2" />
+  </section>
+  <section id="contact">
+    <h2>Форма обратной связи</h2>
+    <form action="/contact" method="POST">
+      <input type="text" name="name" placeholder="Имя" required />
+      <input type="email" name="email" placeholder="Email" required />
+      <textarea name="message" placeholder="Сообщение" required></textarea>
+      <button type="submit">Отправить</button>
+    </form>
+  </section>
+</body>
+</html>
