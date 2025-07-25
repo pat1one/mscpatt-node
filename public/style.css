@@ -1,8 +1,12 @@
 body {
-  background: #0f0f1f url('images/bg.jpg') no-repeat center center fixed;
+  margin: 0;
+  padding: 0;
+  background-image: url('images/background.jpg');
   background-size: cover;
-  color: #fff;
+  background-position: center;
+  background-repeat: no-repeat;
   font-family: Arial, sans-serif;
+  color: white;
 }
 h1, h2 { color: #0ff; text-shadow: 0 0 5px #0ff; }
 nav a { margin: 0 10px; color: #0ff; text-decoration: none; }
