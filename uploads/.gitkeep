@@ -1,1 +1,6 @@
+мmkdir uploads
+touch uploads/.gitkeep
+git add uploads/.gitkeep
+git commit -m "Add empty uploads folder"
+git push
 
