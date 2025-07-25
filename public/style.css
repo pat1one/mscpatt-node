@@ -14,6 +14,38 @@ form, .bio, .gallery { background: rgba(0,0,0,0.6); padding: 15px; margin: 20px;
 input, textarea, button { display: block; margin: 10px 0; padding: 8px; width: 100%; max-width: 400px; }
 img { margin: 10px; border: 2px solid #0ff; border-radius: 8px; }
 .auth-form { max-width: 400px; margin: 40px auto; padding: 20px; background: rgba(0,0,0,0.8); border-radius: 12px; }
+.neon-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin: 40px 0;
+}
+
+.neon-btn {
+  text-decoration: none;
+  padding: 12px 25px;
+  border: 2px solid #0ff;
+  color: #0ff;
+  font-weight: bold;
+  font-size: 16px;
+  border-radius: 8px;
+  text-transform: uppercase;
+  background-color: transparent;
+  box-shadow: 0 0 10px #0ff, 0 0 20px #0ff inset;
+  transition: 0.3s ease;
+}
+
+.neon-btn:hover {
+  background-color: #0ff;
+  color: #000;
+  box-shadow: 0 0 20px #0ff, 0 0 40px #0ff inset;
+}
+
+
+
+
+
+
 .neon-button {
   background: none;
   border: 2px solid #0ff;
