@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<head><title>Кабинет</title><link rel="stylesheet" href="style.css"></head>
+<body>
+  <h2>Добро пожаловать в личный кабинет!</h2>
+  <form action="/upload" method="POST" enctype="multipart/form-data">
+    <label>Загрузить новое фото:</label>
+    <input type="file" name="avatar" required>
+    <button type="submit">Загрузить</button>
+  </form>
+  <img src="/uploads/avatar.jpg" alt="Аватар" style="margin-top:20px; max-width:200px;">
+</body>
+</html>
